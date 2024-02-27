@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-evenly;
+    background-color:gray;
+    padding: 20px;
+    width: 100%;
+}
+body{
+    margin: 0px;
+}
+.item p{
+    font-weight: bolder;
+    color : white;
+    font-style :inherit;
+}     
+.head{
+    background-image: url("./images/bg-image4.jpg");
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}  
+.self-img{
+    position: relative;
+    height: 600px;
+    width: 600px;
+    left: 800px;
+    bottom: 60px;
+    top: 50px;
+    border-radius: 50%;
+}
+.inner-name{
+    position: relative;     
+    width: 300px;
+    color: white;
+    bottom: 80%;
+    font-size: 3rem;
+    left: 200px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.info{
+    font-size: 2rem;
+    position: relative;
+    bottom: 30px;
+    font-family: 'Protest Riot', sans-serif;
+}
+/* .middle{
+    width: 100%;
+    position: absolute;
+    top: 800px;
+} */
+.in-middle{
+    position: relative;
+    display: flex;
+}
+.in-middle img{
+    float: left;
+    margin-right: 20px;
+}
+#hello{
+    width: 80%;
+    font-size: 120%;
+}
+.in2 img{
+    height: 100px;
+}
+.in1{
+    position: relative;
+    left: 400px;
+    top: 100px;
+}
+.in2{
+    position:relative;
+    top: 500px;
+    right: 450px;
+}
+.in2 img{
+    margin-right: 100px;
+    height: 200px;
+}
+.outer{
+    height: 700px;
+    width: 100%;
+   
+}
+.outer-in{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 70%;
+    width: 42.5%;
+}
+.inner img{
+    margin-right: 20px;
+    float: left;
+}
+.hey{
+    clear: left;
+    margin-bottom: 90px;
+}
+.inner h4{
+    position: relative;
+    top: 20px;
+    margin-bottom: 40px ;
+    color:  #11999e;
+    font-size: 1.3rem;
+}
+.inner-in2 h4{
+    position: relative;
+    top: 40px;
+    margin-bottom: 60px;
+}
